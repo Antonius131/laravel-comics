@@ -1,0 +1,54 @@
+main {
+  background-color: #1c1c1c;
+  padding: 2rem 0rem;
+  color: #fff;
+}
+main .comic-title {
+  margin-top: -2.75rem;
+}
+main .comic-title h3 {
+  background-color: #0282f9;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+main #comics-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+main #comics-list .card {
+  width: calc(16.6666666667% - 0.2rem);
+  margin: 0.1rem;
+}
+main #comics-list .card .comic-front {
+  width: 150px;
+  height: 150px;
+}
+main #comics-list .card .comic-front img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main #comics-list .card .comic-caption {
+  padding: 0.75rem 0;
+}
+main #comics-list .card .comic-caption h4 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+main .content-options {
+  text-align: center;
+}
+main .content-options button {
+  background-color: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.5rem 2rem;
+}
