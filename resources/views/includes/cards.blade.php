@@ -1,3 +1,6 @@
+@extends('layouts.main')
+
+@section('main-cards')
 <div class="card">
    <div class="comic-front">
       <img src="#" alt="comicSeries">
@@ -8,3 +11,4 @@
       </h4>
    </div>
 </div>
+@endsection
