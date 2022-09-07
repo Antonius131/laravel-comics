@@ -1,0 +1,15 @@
+/// Background images
+
+@mixin background-image($value) {
+   background-image: url($value);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+/// Blocks
+
+@mixin display-flex-between {
+   display: flex;
+   justify-content: space-between;
+}
