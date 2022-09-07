@@ -11,7 +11,7 @@
       <h2>header</h2>
    </header>
    <main>
-      <h2>main</h2>
+      @yield('main-cards')
    </main>
    <footer>
       <h2>footer</h2>
