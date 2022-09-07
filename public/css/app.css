@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
 main {
   background-color: #1c1c1c;
   padding: 2rem 0rem;
